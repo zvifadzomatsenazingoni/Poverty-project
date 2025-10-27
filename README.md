@@ -11,16 +11,9 @@ centroidid: cluster location identification number
 wealthscorecont: numeric wealth score for each household
 wealthquintile: five wealth quintile categories for each household defined as 1"Lowest" 2"Second" 3"Middle" 4"Fourth" 5"Highest
 
-2. Cluster geolocations (geolocations.csv): This file contains the geospatial data (geolocations) of the cluster site where the data was collected. The column variable labels are:
-centroidid: cluster location unique identification number
-ID_1: Malawi district code
-NAME_1: Malawi district names
-longitude: Longitude geocoordinate
-latitude: Latitude geocoordinate
-
 Output Files
 
-1. Cluster-level wealth percentage (WQ1 data.csv/ WQ1 data.dta): The output file will contain the percentage of ultra-poverty estimates at each cluster for the 437 clusters in addition to other variables. The column variable labels are:
+1. Cluster-level wealth percentage (WQ1 data.csv/ WQ1 data.dta): The output file will contain the percentage of ultra-poverty estimates at each cluster in addition to other variables. The column variable labels are:
 centroidid: cluster location unique identification number
 ID_1: Malawi district code
 NAME_1: Malawi district names
@@ -44,7 +37,7 @@ R FILES
 
 Input files
 
-1. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): The kriged ultra-poverty at the cluster level (raster map.
+1. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): The kriged ultra-poverty at the cluster level (raster map).
    
 2. Malawi polygon shapefile (ECHOS_prioritization_mdf_fixedgeom.shp): The Malawi high resolution spatial polygon file which raster map will be mapped onto.
 
@@ -54,5 +47,5 @@ Output files
    
 ACKNOWLEDGMENTS 
 
-This script was developed by Zvifadzo Matsena Zingoni, Ph.D., as part of a project analyzing socio-spatial equity analysis of access to healthcare during her post-doctoral fellowship. Special thanks to the Blower Lab for providing the data and resources necessary for this analysis.
+This script was developed by Zvifadzo Matsena Zingoni, Ph.D., as part of a project analyzing socio-spatial equity analysis of access to healthcare during her post-doctoral fellowship. Special thanks to the PHIA for providing the data necessary for this analysis.
 
