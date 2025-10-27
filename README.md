@@ -56,4 +56,3 @@ ACKNOWLEDGMENTS
 
 This script was developed by Zvifadzo Matsena Zingoni, Ph.D., as part of a project analyzing socio-spatial equity analysis of access to healthcare during her post-doctoral fellowship. Special thanks to the Blower Lab for providing the data and resources necessary for this analysis.
 
-<img width="468" height="659" alt="image" src="https://github.com/user-attachments/assets/d8ab3e8c-daf3-4bf5-89a1-39c2e3235310" />
