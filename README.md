@@ -63,7 +63,7 @@ WQ1Prop: The percentage of household per district with are ultra-poor.
    
    MORAN_LAG_secter: Lagged geographic accessibility values.
 
-7. The Lee's statistic file (Lees.csv): This is a bivariate sparial association output file for ultra-poverty and geographic accessibility of secondary and tertiary health care facilities. The column variable labels are:
+7. The Lee's statistic file (Lees.csv): This is a bivariate spatial association output file for ultra-poverty and geographic accessibility of secondary and tertiary health care facilities. The column variable labels are:
 
    SOURCE_ID:The spatial unit unique identification.
 
