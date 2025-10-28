@@ -35,7 +35,7 @@ WQ1Prop: The percentage of household per cluster with are ultra-poor.
 
 PovertyWQ4: The total number of households per cluster which are not ultra-poor.
 
-3. District-level wealth percentage (WQ1 district.csv): The output file will contain the percentage of ultra-poverty estimates at each district in Malawi. This data file is used for the cholopleth mapping of the ultra-poverty at the district level. The column variable labels are:
+3. District-level wealth percentage (WQ1 district.csv): The output file will contain the percentage of ultra-poverty estimates at each district in Malawi. This data file is used for the choropleth mapping of the ultra-poverty at the district level. The column variable labels are:
    
 ID_1: Malawi district code.
 
