@@ -13,7 +13,7 @@ wealthscorecont: numeric wealth score for each household.
 
 wealthquintile: five wealth quintile categories for each household defined as 1"Lowest" 2"Second" 3"Middle" 4"Fourth" 5"Highest.
 
-2. Cluster-level wealth percentage (WQ1 data.csv): This is an output file after aggregating the HH wealth data.csv and it contains the percentage of ultra-poverty estimates at each cluster in addition to other variables. This data file is merged with the geolocations and becomes a data source for the ultra-poverty Emperical Bayesian Kringing (EBK) with a output file name WQ1_2 data.csv. Also, once converted into a shapefile, it becomes a data source for the hot spot mapping in SaTScan using the household counts per cluster. The column variable labels are:
+2. Cluster-level wealth percentage (WQ1 data.csv): This is an output file after aggregating the HH wealth data.csv and it contains the percentage of ultra-poverty estimates at each cluster in addition to other variables. Once merged with the geolocations, it  becomes a data source for the ultra-poverty Emperical Bayesian Kriging (EBK) with a output file name WQ1_2 data.csv. Also, once converted into a shapefile, it becomes a data source for the hot spot mapping in SaTScan using the household counts per cluster. The column variable labels are:
    
 centroidid: cluster location unique identification number.
 
