@@ -3,7 +3,7 @@ The files shared provides a guide of how the data used to plot some of the Figur
 
 STATA FILES
 
-Input Files
+Source data files
 
 1. Household wealth dataset (HH wealth data.csv): This file contains the wealth quintile and wealth scores for each of the households. The column variable labels are:
 householdid: unique household identification number
