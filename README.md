@@ -43,17 +43,13 @@ NAME_1: Malawi district names.
 
 WQ1Prop: The percentage of household per district with are ultra-poor.
 
-4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): The kriged ultra-poverty at the cluster level (raster map) will provide the source data for the Lee's statistics after partitioning the kriged ultra poverty estimates into a high resolution of 9208 communities in Malawi. This step will generate a new file that has 9208 wealth percentages for each spatial polygon with a file name WQ1_partitionedEBK.csv.
+4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): The kriged ultra-poverty estimates at the cluster level (raster map) which will partitioned into a high resolution spatial map. The partitioned ultra-poverty estimates outfile is WQ1_partitionedEBK.csv. The out file data will be used for the Lee's statistc estimation.
 
 5. The geographic accessibility for secondary and tertiary health care facilities (GA SecondTert.csv): This file contains the geographic accessibility to secondary and tertiary health care facilities in Malawi and its associated univariate local indicators of spatial association (LISA) estimates. The column variable labels are:
    
    OBJECTID:The spatail unit simple unique identifier.
    
    EACODE:The spatail unit long unique identifier.
-   
-   SecTer_in_60: Number of secondary and tertiary health care facilities accessible in 60 minutes.
-   
-   SecTer_in_120: Number of secondary and tertiary health care facilities accessible in 120 minutes.
    
    SecTer_in_180: Number of secondary and tertiary health care facilities accessible in 180 minutes.
    
