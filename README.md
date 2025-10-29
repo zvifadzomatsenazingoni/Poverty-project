@@ -1,5 +1,5 @@
 # Poverty-project
-The files shared provides a guide of how the data used to plot some of the Figures presented in the manuscript were generated. 
+The files shared provides a guide of how the data used to plot some of the Figures presented in the manuscript were generated. No weights were used in this analysis.
 
 SOURCE DATA FILES
 
