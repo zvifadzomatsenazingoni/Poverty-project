@@ -1,5 +1,5 @@
 # Poverty-project
-The files shared provide a guide of all the analyses done for this project. Weights were used in this analysis for the national estimates.
+The files shared provide a guide of all the analyses done for this project. Weights were used to estimate national estimates.
 
 SOURCE DATA FILES
 
