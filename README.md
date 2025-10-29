@@ -31,7 +31,7 @@ WQ4: The total number of households per cluster which are rich.
 
 WQ5: The total number of households per cluster which are the richest.
 
-WQ1Prop: The percentage of household per cluster wicth are ultra-poor.
+WQ1Prop: The percentage of household per cluster which are ultra-poor.
 
 PovertyWQ4: The total number of households per cluster which are not ultra-poor.
 
