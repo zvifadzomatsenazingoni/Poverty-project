@@ -73,7 +73,7 @@ WQ1Prop: The percentage of household per district with are ultra-poor.
 
    P_VALUE: The significance of the cluster classification.
 
-   ASSOC_CAT: The cluster classifications
+   ASSOC_CAT: The cluster classifications.
 
 CODE FILES
 
