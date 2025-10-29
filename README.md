@@ -79,7 +79,7 @@ CODE FILES
 
 1. STATA code: This is a do file with all the STATA codes for data management and analyses used in this project.
 
-2. R code: This is an R script with all the code for raster partitioning.
+2. R code: This is an R script with all the codes for raster partitioning.
 
 
 ACKNOWLEDGMENTS 
