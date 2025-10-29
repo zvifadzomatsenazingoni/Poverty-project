@@ -1,5 +1,5 @@
 # Poverty-project
-The files shared provides a guide of how the data used to plot some of the Figures presented in the manuscript were generated. No weights were used in this analysis.
+The files shared provide a guide of all the analyses done for this project. Weights were used in this analysis for the national estimates.
 
 SOURCE DATA FILES
 
@@ -31,9 +31,9 @@ WQ4: The total number of households per cluster which are rich.
 
 WQ5: The total number of households per cluster which are the richest.
 
-WQ1Prop: The percentage of household per cluster which are ultra-poor.
+WQ1Prop: The percentage of households per cluster which are ultra-poor.
 
-PovertyWQ4: The total number of households per cluster which are not ultra-poor.
+PovertyWQ4: The total number of households per cluster which are not ultra-poor. This is the sum of WQ2, WQ3, WQ4 and WQ5.
 
 3. District-level wealth percentage (WQ1 district.csv): The output file will contain the percentage of ultra-poverty estimates at each district in Malawi. This data file is used for the choropleth mapping of ultra-poverty at the district level. The column variable labels are:
    
@@ -41,17 +41,17 @@ ID_1: Malawi district code.
 
 NAME_1: Malawi district names.
 
-WQ1Prop: The percentage of household per district with are ultra-poor.
+WQ1Prop: The percentage of households per district which are ultra-poor.
 
-4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): The kriged ultra-poverty estimates at the cluster level (raster map) which will partitioned into a high resolution spatial map. The partitioned ultra-poverty estimates outfile is WQ1_partitionedEBK.csv. The out file data will be used for the Lee's statistc estimation.
+4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): This is the kriged ultra-poverty estimates at the cluster level (raster map) which will be partitioned into a high resolution spatial map. The partitioned ultra-poverty estimates will be saved in WQ1_partitionedEBK.csv file. The output file data will be used for the Lee's statistc estimation.
 
 5. The geographic accessibility for secondary and tertiary health care facilities (GA SecondTert.csv): This file contains the geographic accessibility to secondary and tertiary health care facilities in Malawi and its associated univariate local indicators of spatial association (LISA) estimates. The column variable labels are:
    
-   OBJECTID:The spatail unit simple unique identifier.
+   OBJECTID:The spatial unit simple unique identifier.
    
-   EACODE:The spatail unit long unique identifier.
+   EACODE:The spatial unit long unique identifier.
    
-   SecTer_in_180: Number of secondary and tertiary health care facilities accessible in 180 minutes.
+   SecTer_in_180: Number of secondary and tertiary health care facilities accessible in 3 hours of walking.
    
    LISA_I_secter: LISA indices.
    
@@ -67,9 +67,9 @@ WQ1Prop: The percentage of household per district with are ultra-poor.
 
    SOURCE_ID:The spatial unit unique identification.
 
-   PovertyEBK: The percentage of ultra-poverty in each spatail unit.
+   PovertyEBK: The percentage of ultra-poverty in each spatial unit.
 
-   geoDA_esti: The number of secondary and tertiary health care facilities accessible in 3 hours.
+   geoDA_esti: The number of secondary and tertiary health care facilities accessible in 3 hours of walking.
 
    P_VALUE: The significance of the cluster classification.
 
@@ -77,13 +77,12 @@ WQ1Prop: The percentage of household per district with are ultra-poor.
 
 CODE FILES
 
-1. STATA code: This is a do file with all the STATA codes for data management and analysis used in this project.
+1. STATA code: This is a do file with all the STATA codes for data management and analyses used in this project.
 
 2. R code: This is an R script with all the code for raster partitioning.
 
 
 ACKNOWLEDGMENTS 
 
-This script was developed by Zvifadzo Matsena Zingoni, Ph.D., as part of a project analyzing socio-spatial equity analysis of access to healthcare. PHIA data are freely available for registered users at the PHIA project website: https://phia173data.icap.columbia.edu/. Malawi HCF geolocations were obtained from the Ministry of Health in Malawi,
-174 and cannot be provided for reasons of confidentiality.
+This script was developed by Zvifadzo Matsena Zingoni, Ph.D., as part of a project analyzing socio-spatial equity analysis of access to healthcare. PHIA data are freely available for registered users at the PHIA project website: https://phia173data.icap.columbia.edu/. Malawi HCF geolocations were obtained from the Ministry of Health in Malawi, and cannot be provided for reasons of confidentiality.
 
