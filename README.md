@@ -31,11 +31,11 @@ WQ4: The total number of households per cluster which are rich.
 
 WQ5: The total number of households per cluster which are the richest.
 
-WQ1Prop: The percentage of household per cluster with are ultra-poor.
+WQ1Prop: The percentage of household per cluster wicth are ultra-poor.
 
 PovertyWQ4: The total number of households per cluster which are not ultra-poor.
 
-3. District-level wealth percentage (WQ1 district.csv): The output file will contain the percentage of ultra-poverty estimates at each district in Malawi. This data file is used for the choropleth mapping of the ultra-poverty at the district level. The column variable labels are:
+3. District-level wealth percentage (WQ1 district.csv): The output file will contain the percentage of ultra-poverty estimates at each district in Malawi. This data file is used for the choropleth mapping of ultra-poverty at the district level. The column variable labels are:
    
 ID_1: Malawi district code.
 
@@ -79,10 +79,11 @@ CODE FILES
 
 1. STATA code: This is a do file with all the STATA codes for data management and analysis used in this project.
 
-2. R code: This is an R script will all the code for raster partitioning.
+2. R code: This is an R script with all the code for raster partitioning.
 
 
 ACKNOWLEDGMENTS 
 
-This script was developed by Zvifadzo Matsena Zingoni, Ph.D., as part of a project analyzing socio-spatial equity analysis of access to healthcare. Special thanks to the PHIA for providing the data necessary for this analysis.
+This script was developed by Zvifadzo Matsena Zingoni, Ph.D., as part of a project analyzing socio-spatial equity analysis of access to healthcare. PHIA data are freely available for registered users at the PHIA project website: https://phia173data.icap.columbia.edu/. Malawi HCF geolocations were obtained from the Ministry of Health in Malawi,
+174 and cannot be provided for reasons of confidentiality.
 
