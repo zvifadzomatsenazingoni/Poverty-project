@@ -43,7 +43,7 @@ SOURCE DATA FILES
 
    NAME_1: Malawi district names.
 
-  WQ1Prop: The percentage of households per district which are ultra-poor.
+   WQ1Prop: The percentage of households per district which are ultra-poor.
 
 4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): This is the kriged ultra-poverty estimates at the cluster level (raster map) which will be partitioned into a high resolution spatial map. The partitioned ultra-poverty estimates will be saved in WQ1_partitionedEBK.csv file. The output file data will be used for the Lee's statistic estimation.
 
