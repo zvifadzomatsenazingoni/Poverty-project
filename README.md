@@ -1,4 +1,5 @@
-# Poverty-project
+# Data management and analysis steps
+
 The files shared provide a guide of all the analyses done for this project. Weights were used to estimate national estimates.
 
 SOURCE DATA FILES
