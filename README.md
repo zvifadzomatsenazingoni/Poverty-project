@@ -70,7 +70,7 @@ SOURCE DATA FILES
 
    SOURCE_ID: The spatial unit unique identifier.
 
-   PovertyEBK: The percentage of ultra-poverty in each spatial unit.
+   PovertyEBK: The percentage of wealth households in each spatial unit.
 
    geoDA_esti: The number of secondary and tertiary healthcare facilities accessible in 3 hours of walking.
 
