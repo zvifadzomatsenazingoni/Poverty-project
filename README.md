@@ -16,7 +16,7 @@ SOURCE DATA FILES
 
      hhwt001: household survey weights.
 
-2. Cluster-level wealth percentage (WQ1 data.csv): This is an output file after aggregating the HH wealth data.csv and it contains the percentage of ultra-poverty estimates at each cluster in addition to other variables. Once merged with the geolocations, it becomes a data source for the ultra-poverty Emperical Bayesian Kriging (EBK) with an output file name WQ1_2 data.csv. Also, once converted into a shapefile, it becomes a data source for the hot spot mapping in SaTScan using the household counts per cluster. The column variable labels are:
+2. Cluster-level wealth percentage (WQ1 data.csv): This is an output file after aggregating the HH wealth data.csv and it contains the percentage of ultra-poverty households at each cluster in addition to other variables. Once merged with the geolocations, it becomes a data source for the ultra-poverty Emperical Bayesian Kriging (EBK) with an output file name WQ1_2 data.csv. Also, once converted into a shapefile, it becomes a data source for the hot spot mapping in SaTScan using the household counts per cluster. The column variable labels are:
    
     centroidid: cluster location unique identification number.
 
@@ -38,7 +38,7 @@ SOURCE DATA FILES
 
    PovertyWQ4: The total number of households per cluster that are not ultra-poor. This is the sum of WQ2, WQ3, WQ4 and WQ5.
 
-3. District-level wealth percentage (WQ1 district.csv): The output file will contain the percentage of ultra-poverty estimates at each district in Malawi. This data file is used for the choropleth mapping of ultra-poverty at the district level. The column variable labels are:
+3. District-level wealth percentage (WQ1 district.csv): The output file will contain the percentage of ultra-poverty households at each district in Malawi. This data file is used for the choropleth mapping of ultra-poverty at the district level. The column variable labels are:
    
    ID_1: Malawi district code.
 
@@ -46,7 +46,7 @@ SOURCE DATA FILES
 
    WQ1Prop: The percentage of households per district that are ultra-poor.
 
-4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): This is the kriged raster map of ultra-poverty which will be partitioned into a high resolution spatial map. The partitioned ultra-poverty estimates will be saved in WQ1_partitionedEBK.csv file. The output file data will be used for the Lee's statistic estimation.
+4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): This is the kriged raster map of ultra-poverty which will be partitioned into a high resolution spatial map. The partitioned ultra-poverty results will be saved in WQ1_partitionedEBK.csv file. The output file data will be used for the Lee's statistic estimation.
 
 5. The geographic accessibility for secondary and tertiary healthcare facilities (GA SecondTert.csv): This file contains the geographic accessibility to secondary and tertiary healthcare facilities in Malawi and its associated univariate local indicators of spatial association (LISA) estimates. The column variable labels are:
    
