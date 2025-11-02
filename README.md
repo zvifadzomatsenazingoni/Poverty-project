@@ -38,7 +38,7 @@ SOURCE DATA FILES
 
    PovertyWQ4: The total number of households per cluster that are not ultrapoor. This is the sum of WQ2, WQ3, WQ4 and WQ5.
 
-3. District-level wealth percentage (WQ1 district.csv): The output file will contain the percentage of ultrapoor households at each district in Malawi. This data file is used for the choropleth mapping of ultrapoor at the district level. The column variable labels are:
+3. District-level wealth percentage (WQ1 district.csv): The output file will contain the percentage of ultrapoor households at each district in Malawi. This data file is used for the choropleth mapping of the percentage of ultrapoor households at the district level. The column variable labels are:
    
    ID_1: Malawi district code.
 
@@ -46,7 +46,7 @@ SOURCE DATA FILES
 
    WQ1Prop: The percentage of households per district that are ultrapoor.
 
-4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): This is the kriged raster map of ultrapoor which will be partitioned into a high resolution spatial map. The partitioned results will be saved in WQ1_partitionedEBK.csv file. The output file data will be used for the Lee's statistic estimation.
+4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): This is the kriged raster map of the percentage of ultrapoor households that will be partitioned into percentages of ultrapoor households per community. The partitioned results will be saved in WQ1_partitionedEBK.csv file. The output file data will be used for the Lee's statistic estimation.
 
 5. The geographic accessibility for secondary and tertiary healthcare facilities (GA SecondTert.csv): This file contains the geographic accessibility to secondary and tertiary healthcare facilities in Malawi and its associated univariate local indicators of spatial association (LISA) estimates. The column variable labels are:
    
@@ -66,7 +66,7 @@ SOURCE DATA FILES
    
    MORAN_LAG_secter: Lagged geographic accessibility values.
 
-7. The Lee's statistic file (Lees.csv): This is a bivariate spatial association output file for ultrapoor and geographic accessibility of secondary and tertiary healthcare facilities. The column variable labels are:
+7. The Lee's statistic file (Lees.csv): This is a bivariate spatial association output file for percentage of ultrapoor households per community and geographic accessibility of secondary and tertiary healthcare facilities. The column variable labels are:
 
    SOURCE_ID: The spatial unit unique identifier.
 
