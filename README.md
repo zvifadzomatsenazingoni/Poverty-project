@@ -46,7 +46,7 @@ SOURCE DATA FILES
 
    WQ1Prop: The percentage of households per district that are ultra-poor.
 
-4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): This is the kriged raster map of ultra-poverty which will be partitioned into a high resolution spatial map. The partitioned ultra-poverty results will be saved in WQ1_partitionedEBK.csv file. The output file data will be used for the Lee's statistic estimation.
+4. Ultra-poverty Empirical Bayesian Kriging raster file (Raster.tif): This is the kriged raster map of ultra-poverty which will be partitioned into a high resolution spatial map. The percentage households of ultra-poverty for each community will be saved in WQ1_partitionedEBK.csv file. The output file data will be used for the Lee's statistic estimation.
 
 5. The geographic accessibility for secondary and tertiary healthcare facilities (GA SecondTert.csv): This file contains the geographic accessibility to secondary and tertiary healthcare facilities in Malawi and its associated univariate local indicators of spatial association (LISA) estimates. The column variable labels are:
    
